@@ -1,0 +1,3 @@
+require("ikkjo")
+print("hello")
+
