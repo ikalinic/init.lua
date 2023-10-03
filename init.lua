@@ -1,3 +1,3 @@
 require("ikkjo")
-print("hello")
-
+require("ikkjo.packer")
+print("Ocemo 'l radit' nesto?")
