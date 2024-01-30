@@ -108,4 +108,6 @@ return require('packer').startup(function(use)
     }
 
     use { "rcarriga/nvim-dap-ui", requires = { "mfussenegger/nvim-dap" } }
+    use {"eckon/treesitter-current-functions",
+  requires = { "nvim-treesitter/nvim-treesitter", "nvim-telescope/telescope.nvim" }}
 end)
